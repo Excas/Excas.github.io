@@ -15,9 +15,9 @@
 Git Pull Failed ? Websocket 程序包不存在？ | Msutar
 </title>
 <meta name=title content="Git Pull Failed ? Websocket 程序包不存在？ | Msutar">
-<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/excas/Excas.github.io/font/iconfont.css>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/excas/Excas.github.io/css/main.min.css>
-<script type=application/ld+json>{"@context":"https:\/\/msutar.com","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/msutar.com"},"articleSection":"posts","name":"Git Pull Failed ? Websocket 程序包不存在？","headline":"Git Pull Failed ? Websocket 程序包不存在？","description":"局域网的测试机需要更新一下项目版本，很简单的操作，远程到测试机，git pull 拉取代码，奇妙的旅程就开始了，傲娇的 git 送给你一句：\nunable to access \u0026#39;https:\/xxxxxxx.git\/\u0026#39;: SSL certificate problem: certificate has expired 不死心，疯狂 ↑ \u002b Enter，好吧，就是有问题\u0026hellip;","inLanguage":"en-us","author":"Klaus","creator":"Klaus","publisher":"Klaus","accountablePerson":"Klaus","copyrightHolder":"Klaus","copyrightYear":"2021","datePublished":"2021-09-05 00:00:00 \u002b0000 UTC","dateModified":"2021-09-05 00:00:00 \u002b0000 UTC","url":"https:\/\/msutar.com\/2021\/package-not-found\/","wordCount":"85","keywords":["错误排查","Msutar"]}</script>
+<link rel=stylesheet href=//cdn.jsdelivr.net/gh/excas/Excas.github.io/font/iconfont.css>
+<link rel=stylesheet href=//cdn.jsdelivr.net/gh/excas/Excas.github.io/css/main.min.css>
+<script type=application/ld+json>{"@context":"https:\/\/msutar.com","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/msutar.com"},"articleSection":"posts","name":"Git Pull Failed ? Websocket 程序包不存在？","headline":"Git Pull Failed ? Websocket 程序包不存在？","description":"局域网的测试机需要更新一下项目版本，很简单的操作，远程到测试机，git pull 拉取代码，奇妙的旅程就开始了，傲娇的 git 送给你一句：\nunable to access \u0026#39;https:\/xxxxxxx.git\/\u0026#39;: SSL certificate problem: certificate has expired 不死心，疯狂 ↑ \u002b Enter，好吧，就是有问题\u0026hellip;","inLanguage":"en-us","author":"Klaus","creator":"Klaus","publisher":"Klaus","accountablePerson":"Klaus","copyrightHolder":"Klaus","copyrightYear":"2021","datePublished":"2021-09-06 00:00:00 \u002b0000 UTC","dateModified":"2021-09-06 00:00:00 \u002b0000 UTC","url":"https:\/\/msutar.com\/2021\/package-not-found\/","wordCount":"89","keywords":["错误排查","Msutar"]}</script>
 </head>
 <body>
 <div class=wrapper>
@@ -37,7 +37,7 @@ Git Pull Failed ? Websocket 程序包不存在？ | Msutar
 <nav class=navbar-mobile id=nav-mobile style=display:none>
 <div class=container>
 <div class=navbar-header>
-<div> <a href=javascript:void(0); class=theme-switch></a>&nbsp;<a href=https://msutar.com>Msutar</a></div>
+<div> <a href=javascript:void(0); class=theme-switch></a>&nbsp;<a href=https://msutar.com>❤️ Msutar</a></div>
 <div class=menu-toggle>
 <span></span><span></span><span></span>
 </div>
@@ -58,7 +58,7 @@ Git Pull Failed ? Websocket 程序包不存在？ | Msutar
 <div class=post-meta>
 Written by <a itemprop=name href=https://msutar.com rel=author>Klaus</a> with ♥
 <span class=post-time>
-on <time datetime=2021-09-05 itemprop=datePublished>September 5, 2021</time>
+on <time datetime=2021-09-06 itemprop=datePublished>September 6, 2021</time>
 </span>
 in
 <i class="iconfont icon-folder"></i>
@@ -68,26 +68,26 @@ in
 </div>
 </header>
 <div class=post-content>
-<p>局域网的测试机需要更新一下项目版本，很简单的操作，远程到测试机，git pull 拉取代码，奇妙的旅程就开始了，傲娇的 git 送给你一句：</p>
+<p>局域网的测试机需要更新一下项目版本，很简单的操作，远程到测试机，<code>git pull</code> 拉取代码，奇妙的旅程就开始了，傲娇的 <code>git</code> 送给你一句：</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>unable to access <span style=color:#e6db74>&#39;https:/xxxxxxx.git/&#39;</span>: SSL certificate problem: certificate has expired
 </code></pre></div><p>不死心，疯狂 ↑ + Enter，好吧，就是有问题&mldr;</p>
 <p>甩给谷歌让他解决问题，看到 <a href=https://blog.csdn.net/Learn_inCSDN/article/details/100983879>小哥哥</a> 的解决方案，小哥哥使用</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>git config –global http.sslVerify false
 </code></pre></div><p>好的，得到同样的答案，</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>key does not contain a section: -global
-</code></pre></div><p>我当时就急了，那就去掉 -global 不要嘛&mldr; 好的，项目级的设置果然就过了，小哥哥的解决方式是去老实设置 &ndash;global 的参数，大部分情况这个确实是需要的，由于我们是测试服，所以就随性一点，无视他了，继续 git pull 搞定~</p>
-<p>接着 idea 刷依赖，开启服务</p>
-<p>nacos，过，</p>
-<p>gateway，过，</p>
-<p>system模块，过，？？？桥豆</p>
+</code></pre></div><p>我当时就急了，那就去掉 <code>-global</code> 不要嘛&mldr; 好的，项目级的设置果然就过了，小哥哥的解决方式是去老实设置 <code>-global</code> 的参数，大部分情况这个确实是需要的，由于我们是测试服，所以就随性一点，无视他了，继续 <code>git pull</code> 搞定~</p>
+<p>接着 <code>idea</code> 刷依赖，开启服务</p>
+<p><code>nacos</code>，过，</p>
+<p><code>gateway</code>，过，</p>
+<p><code>system</code> 模块，过，？？？桥豆</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>程序包org.springframework.web.socket.server.standard不存在
 </code></pre></div><p>连编译都没过！！！</p>
-<p>新加的 websocket 依赖居然不行？我本地好好的，到你这为什么不行，这是你的问题，查！！！</p>
-<p>重新刷新依赖，clean install 接着跑，还是不行，我&mldr;.</p>
-<p>行吧，去websocket 包里看一下，<code>.m2\repository\org\springframework\boot\spring-boot-starter-websocket</code>里对应版本的文件夹里只有一个孤零零的 1kb 小兄弟&mldr; 这&mldr; 是 idea 的配置问题吗？</p>
-<p>把本地的 setting.xml 拷过来重启 idea 接着刷依赖，开服务，还是老问题，这&mldr; 更新一个版本的事情搞了这么久&mldr; 看看时间，这都搞了多久了 ？？？2009 年？？？</p>
-<p>好吧，真凶出现了，git 代码更不了的问题也找到了，把机子时间同步一下，所有的问题，红字都没了&mldr;</p>
-<p>由于 https 证书有时间的概念，所以本地时间跟他相差过多，所以就出现了上面的问题，依赖拉取不下来，也是这个原因，为什么会不同步？今天一来公司，就听说跳闸了，所以&mldr;断电引起电脑需要手动启动，为什么测试服重启会不同步时间呢？我的电脑来电了他都自己开机了&mldr;猜测是他的纽扣电池没电了吧&mldr;</p>
+<p>新加的 <code>websocket</code> 依赖居然不行？我本地好好的，到你这为什么不行，这是你的问题，查！！！</p>
+<p>重新刷新依赖，<code>clean</code> 、 <code>install</code> 接着跑，还是不行，我&mldr;.</p>
+<p>行吧，去 <code>websocket</code> 包里看一下，<code>.m2\repository\org\springframework\boot\spring-boot-starter-websocket</code>里对应版本的文件夹里只有一个孤零零的 <code>1 kb</code> 小兄弟&mldr; 这&mldr; 是 <code>idea</code> 的配置问题吗？</p>
+<p>把本地的 <code>setting.xml</code> 拷过来重启 <code>idea</code> 接着刷依赖，开服务，还是老问题，这&mldr; 更新一个版本的事情搞了这么久&mldr; 看看时间，这都搞了多久了 ？？？2009 年？？？</p>
+<p>好吧，真凶出现了，<code>git</code> 代码更不了的问题也找到了，把机子时间同步一下，所有的问题，红字都没了&mldr;</p>
+<p>由于 <code>https</code> 证书有时间的概念，所以本地时间跟他相差过多，所以就出现了上面的问题，依赖拉取不下来，也是这个原因，为什么会不同步？今天一来公司，就听说跳闸了，所以&mldr;断电引起电脑需要手动启动，为什么测试服重启会不同步时间呢？我的电脑来电了他都自己开机了&mldr;猜测是他的纽扣电池没电了吧&mldr;</p>
 <p>好了，这是一个物理事故&mldr;</p>
 <p>Coder 的代码永无 bug ~</p>
 </div>
@@ -134,7 +134,7 @@ in
 | <a href=https://beian.miit.gov.cn/ target=_blank rel="external nofollow">闽ICP备17008754号-2 </a>
 </div>
 </footer>
-<script src=https://cdn.jsdelivr.net/gh/excas/Excas.github.io/js/vendor_no_gallery.min.js async></script>
+<script src=//cdn.jsdelivr.net/gh/excas/Excas.github.io/js/vendor_no_gallery.min.js async></script>
 <script>window.localStorage&&window.localStorage.getItem('theme')==='dark'&&document.body.classList.add('dark-theme')</script>
 <script>var _hmt=_hmt||[];(function(){var a=document.createElement("script"),b;a.src="https://hm.baidu.com/hm.js?d53624fc4f773c228e33cf48bdfceac3",b=document.getElementsByTagName("script")[0],b.parentNode.insertBefore(a,b)})()</script>
 </div>
