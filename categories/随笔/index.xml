@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>随笔 on Msutar</title><link>https://msutar.com/categories/%E9%9A%8F%E7%AC%94/</link><description>Recent content in 随笔 on Msutar</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://msutar.com/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Pull Failed ? Websocket 程序包不存在？</title><link>https://msutar.com/2021/package-not-found/</link><pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate><guid>https://msutar.com/2021/package-not-found/</guid><description>局域网的测试机需要更新一下项目版本，很简单的操作，远程到测试机，git pull 拉取代码，奇妙的旅程就开始了，傲娇的 git 送给你一句：
+unable to access &amp;#39;https:/xxxxxxx.git/&amp;#39;: SSL certificate problem: certificate has expired 不死心，疯狂 ↑ + Enter，好吧，就是有问题&amp;hellip;</description></item><item><title>Chrome 文本光标满天飞，一键搞定</title><link>https://msutar.com/2021/remove-text-cursor-from-chrome/</link><pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate><guid>https://msutar.com/2021/remove-text-cursor-from-chrome/</guid><description>最近几个月 Chrome 上就开始出现了文本光标，一直搁那闪，起初还以为是 Chrome 的 bug，
+我这么懒，就等你自己更新修复吧，转眼间，这都过去多久了，版本更新了也不少吧，这&amp;hellip; 事情好像没这么简单，
+这老大的光标一直在这闪也不是个事儿，甩给谷歌吧&amp;hellip;
+原来只需要按 F7 解君愁，可我 F7 按烂了也没消失呀&amp;hellip; 快捷键冲突了？？？</description></item><item><title>笔记软件的选择(Typora + Github + PicGo)</title><link>https://msutar.com/2021/choose-a-note-app/</link><pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate><guid>https://msutar.com/2021/choose-a-note-app/</guid><description>笔记软件的选择 工作这几年，陆陆续续也用了好几款笔记软件了，早几年，这些软件都还是免费的，慢慢的，大家都开始收费了，没办法，都是要生存的。
+有道云笔记
+已经没有印象为什么弃了&amp;hellip;
+为知笔记
+好用好看，存储方便，还有浏览器插件，刚出的时候着实惊艳，不过还没用爽就收费了&amp;hellip;
+石墨文档
+简单好用的 word 编辑方式，网页版就很够用，当时记录了很多私密信息，完全没有收费迹象，用了好一阵，最终还是收费了&amp;hellip;</description></item></channel></rss>
