@@ -1,4 +1,4 @@
-<!doctype html><html lang=en-us>
+<!doctype html><html lang=zh-cn>
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="chrome=1">
@@ -18,7 +18,7 @@ Win10 自动提交 Git | Msutar
 <meta name=title content="Win10 自动提交 Git | Msutar">
 <link rel=stylesheet href=//cdn.jsdelivr.net/gh/excas/Excas.github.io/font/iconfont.css>
 <link rel=stylesheet href=//cdn.jsdelivr.net/gh/excas/Excas.github.io/css/main.min.css>
-<script type=application/ld+json>{"@context":"https:\/\/msutar.com","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/msutar.com"},"articleSection":"posts","name":"Win10 自动提交 Git","headline":"Win10 自动提交 Git","description":"自动提交Git 实现笔记同步 在windows 需要自动提交 Git 可以借助 Windows 的 任务计划程序 来实现使用。\n具体操作可以按 Win 键然后搜索 任务计划程序 创建一个启动应用，每隔5分钟触发，others\/run_push_git.vbs 即可自动提交。","inLanguage":"en-us","author":"Klaus","creator":"Klaus","publisher":"Klaus","accountablePerson":"Klaus","copyrightHolder":"Klaus","copyrightYear":"2020","datePublished":"2020-08-12 00:00:00 \u002b0000 UTC","dateModified":"2020-08-12 00:00:00 \u002b0000 UTC","url":"https:\/\/msutar.com\/2020\/gitautopushinwin10\/","wordCount":"146","keywords":["Git","Bash","Msutar"]}</script>
+<script type=application/ld+json>{"@context":"https:\/\/msutar.com","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/msutar.com"},"articleSection":"posts","name":"Win10 自动提交 Git","headline":"Win10 自动提交 Git","description":"自动提交Git 实现笔记同步 在windows 需要自动提交 Git 可以借助 Windows 的 任务计划程序 来实现使用。\n具体操作可以按 Win 键然后搜索 任务计划程序 创建一个启动应用，每隔5分钟触发，others\/run_push_git.vbs 即可自动提交。","inLanguage":"zh-cn","author":"Klaus","creator":"Klaus","publisher":"Klaus","accountablePerson":"Klaus","copyrightHolder":"Klaus","copyrightYear":"2020","datePublished":"2020-08-12 00:00:00 \u002b0000 UTC","dateModified":"2020-08-12 00:00:00 \u002b0000 UTC","url":"https:\/\/msutar.com\/2020\/gitautopushinwin10\/","wordCount":"146","keywords":["Git","Bash","Msutar"]}</script>
 </head>
 <body>
 <div class=wrapper>
@@ -38,7 +38,7 @@ Win10 自动提交 Git | Msutar
 <nav class=navbar-mobile id=nav-mobile style=display:none>
 <div class=container>
 <div class=navbar-header>
-<div> <a href=javascript:void(0); class=theme-switch></a>&nbsp;<a href=https://msutar.com>❤️ Msutar</a></div>
+<div> <a href=javascript:void(0); class=theme-switch>&nbsp;❤️&nbsp;</a><a href=https://msutar.com> Msutar</a></div>
 <div class=menu-toggle>
 <span></span><span></span><span></span>
 </div>
@@ -74,7 +74,7 @@ in
 <p>在<code>windows</code> 需要自动提交 <code>Git</code> 可以借助 <code>Windows</code> 的 <code>任务计划程序</code> 来实现使用。</p>
 <p>具体操作可以按 <code>Win</code> 键然后搜索 <code>任务计划程序</code> 创建一个启动应用，每隔5分钟触发，<code>others/run_push_git.vbs</code> 即可自动提交。</p>
 <p>如下是一个已经创建好的计划：</p>
-<p><figure><img src=//cdn.jsdelivr.net/npm/lightgallery@1.10.0/src/img/loading.gif data-sizes=auto data-src=https://cdn.jsdelivr.net/gh/excas/images/public/image-20211021095140249.png alt=image-20211021095140249 class=lazyload><figcaption class=image-caption>image-20211021095140249</figcaption></figure></p>
+<p><figure><img src=/images/loading.svg data-sizes=auto data-src=https://cdn.jsdelivr.net/gh/excas/images/public/image-20211021095140249.png alt=image-20211021095140249 class=lazyload><figcaption class=image-caption>image-20211021095140249</figcaption></figure></p>
 <p><code>run_push_git.vbs</code> 文件如下：</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-vb data-lang=vb><span style=color:#66d9ef>set</span> shell<span style=color:#f92672>=</span>wscript.createObject(<span style=color:#e6db74>&#34;wscript.shell&#34;</span>)  
 run<span style=color:#f92672>=</span>shell.Run(<span style=color:#e6db74>&#34;C:\Apps\Git\bin\bash.exe D:\Notebook\others\auto_git.sh&#34;</span>, 0)

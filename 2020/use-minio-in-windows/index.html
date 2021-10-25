@@ -1,4 +1,4 @@
-<!doctype html><html lang=en-us>
+<!doctype html><html lang=zh-cn>
 <head>
 <meta charset=utf-8>
 <meta http-equiv=x-ua-compatible content="chrome=1">
@@ -18,7 +18,7 @@
 <meta name=title content="在 windows 使用 minio 对象存储 | Msutar">
 <link rel=stylesheet href=//cdn.jsdelivr.net/gh/excas/Excas.github.io/font/iconfont.css>
 <link rel=stylesheet href=//cdn.jsdelivr.net/gh/excas/Excas.github.io/css/main.min.css>
-<script type=application/ld+json>{"@context":"https:\/\/msutar.com","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/msutar.com"},"articleSection":"posts","name":"在 windows 使用 minio 对象存储","headline":"在 windows 使用 minio 对象存储","description":"minio 的简单使用 我们农场里正式线使用的对象存储是七牛云，在测试的时候，我们如果再使用普通的上传到服务器，就有可能需要做两套文件系统，于是 minio 就登场啦，他支持 AWS S3 存储协议，在项目里，我们就可以直接使用 aws-java-sdk-s3 的 jar包轻松实现兼容，修改配置就能享用。\n在 windows 中部署 minio windows 下载 .","inLanguage":"en-us","author":"Klaus","creator":"Klaus","publisher":"Klaus","accountablePerson":"Klaus","copyrightHolder":"Klaus","copyrightYear":"2020","datePublished":"2020-08-17 00:00:00 \u002b0000 UTC","dateModified":"2020-08-17 00:00:00 \u002b0000 UTC","url":"https:\/\/msutar.com\/2020\/use-minio-in-windows\/","wordCount":"47","keywords":["Minio","Msutar"]}</script>
+<script type=application/ld+json>{"@context":"https:\/\/msutar.com","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/msutar.com"},"articleSection":"posts","name":"在 windows 使用 minio 对象存储","headline":"在 windows 使用 minio 对象存储","description":"minio 的简单使用 我们农场里正式线使用的对象存储是七牛云，在测试的时候，我们如果再使用普通的上传到服务器，就有可能需要做两套文件系统，于是 minio 就登场啦，他支持 AWS S3 存储协议，在项目里，我们就可以直接使用 aws-java-sdk-s3 的 jar包轻松实现兼容，修改配置就能享用。\n在 windows 中部署 minio windows 下载 .","inLanguage":"zh-cn","author":"Klaus","creator":"Klaus","publisher":"Klaus","accountablePerson":"Klaus","copyrightHolder":"Klaus","copyrightYear":"2020","datePublished":"2020-08-17 00:00:00 \u002b0000 UTC","dateModified":"2020-08-17 00:00:00 \u002b0000 UTC","url":"https:\/\/msutar.com\/2020\/use-minio-in-windows\/","wordCount":"47","keywords":["Minio","Msutar"]}</script>
 </head>
 <body>
 <div class=wrapper>
@@ -38,7 +38,7 @@
 <nav class=navbar-mobile id=nav-mobile style=display:none>
 <div class=container>
 <div class=navbar-header>
-<div> <a href=javascript:void(0); class=theme-switch></a>&nbsp;<a href=https://msutar.com>❤️ Msutar</a></div>
+<div> <a href=javascript:void(0); class=theme-switch>&nbsp;❤️&nbsp;</a><a href=https://msutar.com> Msutar</a></div>
 <div class=menu-toggle>
 <span></span><span></span><span></span>
 </div>
@@ -68,6 +68,24 @@ in
 </span>
 </div>
 </header>
+<div class=post-toc id=post-toc>
+<h2 class=post-toc-title></h2>
+<div class="post-toc-content always-active">
+<nav id=TableOfContents>
+<ul>
+<li><a href=#minio-的简单使用>minio 的简单使用</a>
+<ul>
+<li><a href=#在-windows-中部署-minio>在 windows 中部署 minio</a></li>
+<li><a href=#修改密码>修改密码</a></li>
+<li><a href=#运行>运行</a></li>
+<li><a href=#参考>参考</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<script type=text/javascript>window.onload=function(){var a=$('.post-toc'),b=$('.post-comment'),f=a.offset().top,d=a.height(),g=a[0].offsetTop,e,c;$(window).scroll(function(){var h=Math.max(document.body.scrollTop,document.documentElement.scrollTop);b.length>0&&(c=b.offset().top,e=c-h-d),f<h?(a.css({position:'fixed'}),b.length>0&&c<h+d?a.css({top:e}):a.css({top:0})):(a.css({position:'absolute'}),a.css({top:g}))})}</script>
 <div class=post-content>
 <h2 id=minio-的简单使用>minio 的简单使用</h2>
 <p>我们农场里正式线使用的对象存储是七牛云，在测试的时候，我们如果再使用普通的上传到服务器，就有可能需要做两套文件系统，于是 minio 就登场啦，他支持 AWS S3 存储协议，在项目里，我们就可以直接使用 aws-java-sdk-s3 的 jar包轻松实现兼容，修改配置就能享用。</p>
@@ -80,7 +98,7 @@ in
 <p>打开 cmd 进入 minio的文件目录，执行</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>minio.exe server D:<span style=color:#ae81ff>\你</span>的目录
 </code></pre></div><p>如图得到如图，即成功开启了 minio 服务
-<figure><img src=//cdn.jsdelivr.net/npm/lightgallery@1.10.0/src/img/loading.gif data-sizes=auto data-src=https://cdn.jsdelivr.net/gh/excas/images/public/image-20211021174515931.png alt=image-20211021174515931 class=lazyload><figcaption class=image-caption>image-20211021174515931</figcaption></figure></p>
+<figure><img src=/images/loading.svg data-sizes=auto data-src=https://cdn.jsdelivr.net/gh/excas/images/public/image-20211021174515931.png alt=image-20211021174515931 class=lazyload><figcaption class=image-caption>image-20211021174515931</figcaption></figure></p>
 <p>enjoy it~</p>
 <h3 id=参考>参考</h3>
 <ul>
