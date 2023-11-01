@@ -1,53 +1,83 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>花花世界 on 花花世界</title><link>https://msutar.com/</link><description>Recent content in 花花世界 on 花花世界</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml"/><item><title>Posts</title><link>https://msutar.com/posts/</link><pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate><guid>https://msutar.com/posts/</guid><description/></item><item><title>- About -</title><link>https://msutar.com/about/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>https://msutar.com/about/</guid><description>&lt;p>　&lt;/p>
-&lt;h2 id="about-me">About me&lt;/h2>
-&lt;p>大噶好，我是 Klaus , 程序班小学生一枚~ 会一些武艺，搁这跟大家掰扯掰扯~&lt;/p>
-&lt;p>能干活的：&lt;code>java&lt;/code> &lt;code>php&lt;/code> &lt;code>mysql&lt;/code> &lt;code>css&lt;/code> &lt;code>javascript&lt;/code> &lt;code>html&lt;/code> &lt;code>bash&lt;/code> &lt;code>lua&lt;/code>&lt;/p>
-&lt;p>接触过的：&lt;code>go&lt;/code> &lt;code>python&lt;/code> &lt;code>object-c&lt;/code> &lt;code>swift&lt;/code>&lt;/p>
-&lt;p>谋生技能：主营 &lt;code>JAVA&lt;/code>，靠 &lt;strong>春天全家桶&lt;/strong> 吃饭，哈哈~&lt;/p>
-&lt;p>　&lt;/p>
-&lt;p>兴趣爱好广泛，休闲娱乐都喜欢，打发消遣常常是电影、小说，在培养练习的爱好有画画、Ukulele、Chinglish ，还有好多没在练习一直想学的有建模、摄影、剪辑好多好多呀~&lt;/p>
-&lt;p>在这里我会分享一些日常的记录，工作的、生活的，有的、没的，大的、小的 anything ~&lt;/p>
-&lt;p>　&lt;/p>
-&lt;p>世界很精彩，想做的事情很多，认真走好每一步~&lt;/p>
-&lt;p>　&lt;/p>
-&lt;hr>
-&lt;h3 id="about-here">About here&lt;/h3>
-&lt;p>本站使用 &lt;a href="https://gohugo.io">Hugo&lt;/a> 构建，主题使用 &lt;a href="https://github.com/liuzc/LeaveIt">LeaveIt&lt;/a>，但是作者大大已经鸽了，我花了几天给他动了动刀子，修复了诸如：&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>dark theme 刷新闪屏&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>分类点击无高亮&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>工信部地址错误&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>lightGallery 不生效&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>魔改了：&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>code&lt;/code> 标签样式，兼容主题切换&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>blockquote 引用样式魔改兼容双主题切换&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>所有资源 cdn (&lt;a href="https://www.jsdelivr.com">jsdelivr&lt;/a>) 加速&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>添加文章目录&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>且用且珍惜~&lt;/p>
-&lt;blockquote>
-&lt;p>Hugo is the &lt;strong>world’s fastest framework for building websites&lt;/strong>. It is written in Go.&lt;/p>
-&lt;/blockquote>
-&lt;p>Thanks:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/liuzc/LeaveIt">https://github.com/liuzc/LeaveIt&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>花花世界 on 花花世界</title>
+    <link>https://msutar.com/</link>
+    <description>Recent content in 花花世界 on 花花世界</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts</title>
+      <link>https://msutar.com/posts/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://msutar.com/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>- About -</title>
+      <link>https://msutar.com/about/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://msutar.com/about/</guid>
+      <description>&lt;p&gt;　&lt;/p&gt;
+&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;p&gt;大噶好，我是 Klaus , 程序班小学生一枚~ 会一些武艺，搁这跟大家掰扯掰扯~&lt;/p&gt;
+&lt;p&gt;能干活的：&lt;code&gt;java&lt;/code&gt; &lt;code&gt;php&lt;/code&gt; &lt;code&gt;mysql&lt;/code&gt; &lt;code&gt;css&lt;/code&gt; &lt;code&gt;javascript&lt;/code&gt; &lt;code&gt;html&lt;/code&gt; &lt;code&gt;bash&lt;/code&gt; &lt;code&gt;lua&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;接触过的：&lt;code&gt;go&lt;/code&gt; &lt;code&gt;python&lt;/code&gt; &lt;code&gt;object-c&lt;/code&gt; &lt;code&gt;swift&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;谋生技能：主营 &lt;code&gt;JAVA&lt;/code&gt;，靠 &lt;strong&gt;春天全家桶&lt;/strong&gt; 吃饭，哈哈~&lt;/p&gt;
+&lt;p&gt;　&lt;/p&gt;
+&lt;p&gt;兴趣爱好广泛，休闲娱乐都喜欢，打发消遣常常是电影、小说，在培养练习的爱好有画画、Ukulele、Chinglish ，还有好多没在练习一直想学的有建模、摄影、剪辑好多好多呀~&lt;/p&gt;
+&lt;p&gt;在这里我会分享一些日常的记录，工作的、生活的，有的、没的，大的、小的 anything ~&lt;/p&gt;
+&lt;p&gt;　&lt;/p&gt;
+&lt;p&gt;世界很精彩，想做的事情很多，认真走好每一步~&lt;/p&gt;
+&lt;p&gt;　&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;about-here&#34;&gt;About here&lt;/h3&gt;
+&lt;p&gt;本站使用 &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; 构建，主题使用 &lt;a href=&#34;https://github.com/liuzc/LeaveIt&#34;&gt;LeaveIt&lt;/a&gt;，但是作者大大已经鸽了，我花了几天给他动了动刀子，修复了诸如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dark theme 刷新闪屏&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;分类点击无高亮&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;工信部地址错误&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lightGallery 不生效&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;魔改了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;code&lt;/code&gt; 标签样式，兼容主题切换&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;blockquote 引用样式魔改兼容双主题切换&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;所有资源 cdn (&lt;a href=&#34;https://www.jsdelivr.com&#34;&gt;jsdelivr&lt;/a&gt;) 加速&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;添加文章目录&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;且用且珍惜~&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Thanks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/liuzc/LeaveIt&#34;&gt;https://github.com/liuzc/LeaveIt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

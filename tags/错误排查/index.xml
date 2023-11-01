@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>错误排查 on 花花世界</title><link>https://msutar.com/tags/%E9%94%99%E8%AF%AF%E6%8E%92%E6%9F%A5/</link><description>Recent content in 错误排查 on 花花世界</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://msutar.com/tags/%E9%94%99%E8%AF%AF%E6%8E%92%E6%9F%A5/index.xml" rel="self" type="application/rss+xml"/><item><title>Git Pull Failed ? Websocket 程序包不存在？</title><link>https://msutar.com/2021/package-not-found/</link><pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate><guid>https://msutar.com/2021/package-not-found/</guid><description>当公司断电以后~</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>错误排查 on 花花世界</title>
+    <link>https://msutar.com/tags/%E9%94%99%E8%AF%AF%E6%8E%92%E6%9F%A5/</link>
+    <description>Recent content in 错误排查 on 花花世界</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://msutar.com/tags/%E9%94%99%E8%AF%AF%E6%8E%92%E6%9F%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Pull Failed ? Websocket 程序包不存在？</title>
+      <link>https://msutar.com/2021/package-not-found/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://msutar.com/2021/package-not-found/</guid>
+      <description>当公司断电以后~</description>
+    </item>
+    
+  </channel>
+</rss>

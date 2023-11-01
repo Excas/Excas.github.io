@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on 花花世界</title><link>https://msutar.com/categories/</link><description>Recent content in Categories on 花花世界</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://msutar.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>随笔</title><link>https://msutar.com/categories/%E9%9A%8F%E7%AC%94/</link><pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate><guid>https://msutar.com/categories/%E9%9A%8F%E7%AC%94/</guid><description/></item><item><title>教程</title><link>https://msutar.com/categories/%E6%95%99%E7%A8%8B/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://msutar.com/categories/%E6%95%99%E7%A8%8B/</guid><description/></item><item><title>冷知识</title><link>https://msutar.com/categories/%E5%86%B7%E7%9F%A5%E8%AF%86/</link><pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate><guid>https://msutar.com/categories/%E5%86%B7%E7%9F%A5%E8%AF%86/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 花花世界</title>
+    <link>https://msutar.com/categories/</link>
+    <description>Recent content in Categories on 花花世界</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://msutar.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>随笔</title>
+      <link>https://msutar.com/categories/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://msutar.com/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>教程</title>
+      <link>https://msutar.com/categories/%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://msutar.com/categories/%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>冷知识</title>
+      <link>https://msutar.com/categories/%E5%86%B7%E7%9F%A5%E8%AF%86/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://msutar.com/categories/%E5%86%B7%E7%9F%A5%E8%AF%86/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
